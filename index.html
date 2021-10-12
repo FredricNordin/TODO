@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="pagestyle" rel="stylesheet" href="styling.css">
+    <title>To do lista</title>
+
+</head>
+
+
+<body>
+    <header>
+
+        <div class="headerContent">
+            <h1>TODO</h1>
+            <p id="klarText">0 uppgifter avklarade</p>
+            <button onclick="swapStyleSheet('styling2.css')">Pink CSS</button>
+            <button onclick="swapStyleSheet('styling.css')">Default CSS</button>
+            <br>
+            <br>
+            <input type="text" id="text">
+            <label for="text"></label>
+            <br>
+            <br>
+            <button id="knapp" onclick="skapaFunktion()">OK</button>
+        </div>
+
+    </header>
+
+    <main>
+
+        <p id="errorText"></p>
+        <ul></ul>
+
+    </main>
+
+    <footer>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
